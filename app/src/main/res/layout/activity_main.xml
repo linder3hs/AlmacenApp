@@ -17,6 +17,6 @@
         android:layout_margin="16dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:src="@android:drawable/ic_menu_add"
+        android:src="@drawable/ic_plus"
         android:onClick="showRegister"/>
 </RelativeLayout>

@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         productosList.setAdapter(new ProductosAdapter(this));
 
+
         initialize();
     }
 
