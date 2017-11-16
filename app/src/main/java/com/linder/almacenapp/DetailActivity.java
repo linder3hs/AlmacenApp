@@ -17,7 +17,6 @@ public class DetailActivity extends AppCompatActivity {
     private static final String TAG = DetailActivity.class.getSimpleName();
 
     private Integer id;
-
     private ImageView fotoImage;
     private TextView nombreText;
     private TextView detallesText;
@@ -28,6 +27,7 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         fotoImage = (ImageView)findViewById(R.id.foto_image);
         nombreText = (TextView)findViewById(R.id.nombre_text);
